@@ -27,10 +27,11 @@ This project was built with the following technologies:
 
 ![React.js] ![Tailwind] 
 
-It includes:
+Technologies:
 
+- React Router Dom
+- Redux / Redux Tool Kit
 - Using the Geolocation API
-- Displaying a Map Using Leaflet Library
 
 <br />
 
@@ -40,11 +41,21 @@ It includes:
 
 Using the project is easy, just a few steps:
 
-- First give access to your location
-- Click on the map where you want to do a workout
-- There are 2 types of workout: running and cycling. Choose one of them and enter the details
 
-When click 'Enter' button, it saves at local storage and displays the map as well as the sidebar on the left side
+
+- First register by entering with your name
+<img src="./mockups/01.png" alt="project-screenshot" />
+- Select pizzas that you want to order and they will be added to cart
+<img src="./mockups/02.png" alt="project-screenshot" />
+- Open cart and confirm order
+<img src="./mockups/03.png" alt="project-screenshot" />
+- Give full name, phone number and address (*choose priority if you want)
+<img src="./mockups/04.png" alt="project-screenshot" />
+
+
+When click 'Order' button, it gets all information and show order status, time and cost. 
+<img src="./mockups/05.png" alt="project-screenshot" />
+Wait your Order ;)
 
 <br />
 
